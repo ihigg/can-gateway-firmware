@@ -1,0 +1,7 @@
+*.o
+*.s19
+*.map
+*.MDB
+*.trc
+obj/
+bak/

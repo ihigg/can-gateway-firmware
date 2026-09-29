@@ -10,7 +10,7 @@ void initCANC(void)
     int i;
     for (i = 0; i < 5; i++)
     {
-        os_can_send_msg(CANB, 0x000, 0, 6, 0x03, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00); // Nopt sure if I need all 8 filled or not
+        os_can_send_msg(CANB, 0x000, 0, 6, 0x03, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00); // Not sure if I need all 8 filled or not
         os_wait(500);
     }
 }
